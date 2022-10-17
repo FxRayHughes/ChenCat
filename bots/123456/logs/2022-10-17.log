@@ -1,0 +1,10 @@
+[0m2022-10-17 10:31:00 V/Net 123456: No server list cached.[0m
+[92m2022-10-17 10:31:01 I/Net 123456: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2022-10-17 10:31:16 I/Net 123456: Successfully fetched ecdh public key from server.[0m
+[0m2022-10-17 10:31:16 V/Net 123456: Send: wtlogin.login[0m
+[0m2022-10-17 10:31:18 V/Net 123456: Recv: wtlogin.login[0m
+[0m2022-10-17 10:31:26 V/Net 123456: Send: wtlogin.login[0m
+[0m2022-10-17 10:31:27 V/Net 123456: Recv: wtlogin.login[0m
+[0m2022-10-17 10:31:29 V/Net 123456: Send: wtlogin.login[0m
+[0m2022-10-17 10:31:30 V/Net 123456: Recv: wtlogin.login[0m
+[0m2022-10-17 10:31:32 V/Net 123456: Send: wtlogin.login[0m

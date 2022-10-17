@@ -1,0 +1,40 @@
+[92m2022-10-17 13:34:45 I/main: Starting mirai-console...[0m[m
+[92m2022-10-17 13:34:45 I/main: Backend: version 2.12.3, built on 2022-09-11 21:02:46.[0m[m
+[92m2022-10-17 13:34:45 I/main: Frontend Terminal: version 2.12.3, provided by Mamoe Technologies[0m[m
+[92m2022-10-17 13:34:45 I/main: Welcome to visit https://mirai.mamoe.net/[0m[m
+[92m2022-10-17 13:34:46 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop[0m[m
+[92m2022-10-17 13:34:46 I/main: 0 plugin(s) enabled.[0m[m
+[92m2022-10-17 13:34:46 I/main: mirai-console started successfully.[0m[m
+[92m2022-10-17 13:34:46 I/辰猫: Plugin loaded[0m[m
+[92m2022-10-17 13:34:46 I/辰猫: 注入命令: 今日课表[0m[m
+[92m2022-10-17 13:34:46 I/stdout: 1[0m[m
+[92m2022-10-17 13:34:46 I/stdout: 8:20 ~ 9:00[0m[m
+[92m2022-10-17 13:34:46 I/stdout: 9:10 ~ 9:50[0m[m
+[92m2022-10-17 13:34:46 I/stdout: 主校区教学楼[0m[m
+[92m2022-10-17 13:34:46 I/stdout: 2[0m[m
+[92m2022-10-17 13:34:46 I/stdout: 10:00 ~ 10:40[0m[m
+[92m2022-10-17 13:34:46 I/stdout: 10:50 ~ 11:30[0m[m
+[92m2022-10-17 13:34:46 I/stdout: 主校区教学楼[0m[m
+[92m2022-10-17 13:34:46 I/stdout: 3[0m[m
+[92m2022-10-17 13:34:46 I/stdout: 13:00 ~ 13:40[0m[m
+[92m2022-10-17 13:34:46 I/stdout: 13:50 ~ 14:30[0m[m
+[92m2022-10-17 13:34:46 I/stdout: 主校区教学楼[0m[m
+[92m2022-10-17 13:34:46 I/stdout: 4[0m[m
+[92m2022-10-17 13:34:46 I/stdout: 14:50 ~ 15:30[0m[m
+[92m2022-10-17 13:34:46 I/stdout: 15:40 ~ 16:20[0m[m
+[92m2022-10-17 13:34:46 I/stdout: 主校区教学楼[0m[m
+[92m2022-10-17 13:34:46 I/stdout: 5[0m[m
+[92m2022-10-17 13:34:46 I/stdout: 18:10 ~ 18:50[0m[m
+[92m2022-10-17 13:34:46 I/stdout: 19:00 ~ 19:40[0m[m
+[92m2022-10-17 13:34:46 I/stdout: 主校区教学楼[0m[m
+[91m2022-10-17 13:34:46 W/stderr: Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 6 out of bounds for length 6[0m[m
+[91m2022-10-17 13:34:46 W/stderr: 	at jxl.read.biff.SheetImpl.getRow(SheetImpl.java:515)[0m[m
+[91m2022-10-17 13:34:46 W/stderr: 	at ray.mintcat.chencat.XLS.loadTime(XLS.kt:69)[0m[m
+[91m2022-10-17 13:34:46 W/stderr: 	at ray.mintcat.chencat.RunMiraiKt.main(RunMirai.kt:18)[0m[m
+[91m2022-10-17 13:34:46 W/stderr: 	at ray.mintcat.chencat.RunMiraiKt$main$2.invoke(RunMirai.kt)[0m[m
+[91m2022-10-17 13:34:46 W/stderr: 	at ray.mintcat.chencat.RunMiraiKt$main$2.invoke(RunMirai.kt)[0m[m
+[91m2022-10-17 13:34:46 W/stderr: 	at kotlin.coroutines.intrinsics.IntrinsicsKt__IntrinsicsJvmKt$createCoroutineUnintercepted$$inlined$createCoroutineFromSuspendFunction$IntrinsicsKt__IntrinsicsJvmKt$1.invokeSuspend(IntrinsicsJvm.kt:205)[0m[m
+[91m2022-10-17 13:34:46 W/stderr: 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)[0m[m
+[91m2022-10-17 13:34:46 W/stderr: 	at kotlin.coroutines.ContinuationKt.startCoroutine(Continuation.kt:115)[0m[m
+[91m2022-10-17 13:34:46 W/stderr: 	at kotlin.coroutines.jvm.internal.RunSuspendKt.runSuspend(RunSuspend.kt:19)[0m[m
+[91m2022-10-17 13:34:46 W/stderr: 	at ray.mintcat.chencat.RunMiraiKt.main(RunMirai.kt)[0m[m
