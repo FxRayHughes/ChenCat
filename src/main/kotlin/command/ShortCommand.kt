@@ -1,8 +1,6 @@
-package command
+package ray.mintcat.chencat.command
 
 import net.mamoe.mirai.message.data.MessageChain
-import command.Command
-import command.Sender
 
 interface ShortCommand {
 

@@ -1,4 +1,4 @@
-package command
+package ray.mintcat.chencat.command
 
 import net.mamoe.mirai.message.data.MessageChain
 import ray.mintcat.chencat.PluginMain

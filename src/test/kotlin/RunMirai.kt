@@ -6,6 +6,13 @@ import net.mamoe.mirai.console.plugin.PluginManager.INSTANCE.enable
 import net.mamoe.mirai.console.plugin.PluginManager.INSTANCE.load
 import net.mamoe.mirai.console.terminal.MiraiConsoleTerminalLoader
 import net.mamoe.mirai.console.util.ConsoleExperimentalApi
+import okhttp3.FormBody
+import okhttp3.OkHttpClient
+import okhttp3.Request
+import ray.mintcat.chencat.module.http.HttpAPI
+import ray.mintcat.chencat.module.new.NewTitle
+import ray.mintcat.chencat.module.shst.FxShstAPI
+import java.io.File
 import java.util.*
 
 @OptIn(ConsoleExperimentalApi::class)
@@ -14,7 +21,6 @@ suspend fun main() {
 
     PluginMain.load()
     PluginMain.enable()
-
-    XLS.loadRoom()
-
+    val calendar = Calendar.getInstance()
+    println(calendar.get(Calendar.HOUR_OF_DAY))
 }

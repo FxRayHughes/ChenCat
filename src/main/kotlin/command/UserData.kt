@@ -1,4 +1,4 @@
-package command
+package ray.mintcat.chencat.command
 
 import net.mamoe.mirai.console.data.AutoSavePluginData
 import net.mamoe.mirai.console.data.value

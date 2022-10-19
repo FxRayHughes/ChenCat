@@ -1,10 +1,10 @@
-package ray.mintcat.chencat.command.impl
+package ray.mintcat.chencat.module.clazz.command
 
-import command.BaseCommand
+import ray.mintcat.chencat.command.BaseCommand
 import net.mamoe.mirai.message.data.MessageChain
-import command.Sender
-import command.ShortCommand
-import ray.mintcat.chencat.XLS
+import ray.mintcat.chencat.command.Sender
+import ray.mintcat.chencat.command.ShortCommand
+import ray.mintcat.chencat.module.clazz.XLS
 import java.util.*
 
 object DayCommand : BaseCommand("今日课表"), ShortCommand {
@@ -26,6 +26,10 @@ object DayCommand : BaseCommand("今日课表"), ShortCommand {
         sender.sendMessage("查询中 请等待...")
         val now = Calendar.getInstance().get(Calendar.DAY_OF_WEEK) - 1
         val title = command[1].toIntOrNull() ?: 0
+        if (title > 7){
+            sender.sendMessage("暂时还没这么多课")
+            return
+        }
         val data = XLS.getClassData(now, title)
         if (data == null || data.none) {
             sender.sendMessage(
@@ -61,9 +65,10 @@ object DayCommand : BaseCommand("今日课表"), ShortCommand {
         stringBuilder.append("今日课程: \n")
         XLS.data[now]?.list?.forEachIndexed { index, classData ->
             if (classData.none) {
+                stringBuilder.append("第${classData.index +1}节: 无课 \n")
                 return@forEachIndexed
             }
-            stringBuilder.append("第${index +1}节: ${classData.name} \n")
+            stringBuilder.append("第${classData.index +1}节: ${classData.name} \n")
         }
         stringBuilder.append("详细内容输入: .查课 课节数字")
         sender.sendMessage(stringBuilder.toString(), from)

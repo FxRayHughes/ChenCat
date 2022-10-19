@@ -1,4 +1,4 @@
-package ray.mintcat.chencat.data
+package ray.mintcat.chencat.module.clazz.data
 
 data class TimeData(
     val index: Int,

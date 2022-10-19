@@ -1,6 +1,6 @@
-package ray.mintcat.chencat.data
+package ray.mintcat.chencat.module.clazz.data
 
-import ray.mintcat.chencat.XLS
+import ray.mintcat.chencat.module.clazz.XLS
 
 data class ClassData(
     val name: String = "",
