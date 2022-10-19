@@ -1,0 +1,58 @@
+[92m2022-10-18 13:17:01 I/main: Starting mirai-console...[0m[m
+[92m2022-10-18 13:17:01 I/main: Backend: version 2.12.3, built on 2022-09-11 21:02:46.[0m[m
+[92m2022-10-18 13:17:01 I/main: Frontend Terminal: version 2.12.3, provided by Mamoe Technologies[0m[m
+[92m2022-10-18 13:17:01 I/main: Welcome to visit https://mirai.mamoe.net/[0m[m
+[92m2022-10-18 13:17:01 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop[0m[m
+[92m2022-10-18 13:17:01 I/main: 0 plugin(s) enabled.[0m[m
+[92m2022-10-18 13:17:01 I/main: mirai-console started successfully.[0m[m
+[92m2022-10-18 13:17:02 I/stdout: <html>	<a href=/_ascnlink_k></a><head>	<base target="_self"/>		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">		<title>出错页面</title>		<style type="text/css">		<!--		body {			margin-top: 50px;		}		-->		</style> 		<script language='javascript'>			var flag='1';			if(flag=='1' || flag=='2' ){ 				window.location.href="/Logon.do?method=logout";			}		</script>	</head> 	<body>		<div align="center">			<table width="50%" border="0">				<tr>					<td>						<div align="center">							<img src="/framework/images/chucuole.gif" width="105" height="110">						</div>					</td>				</tr>				<tr>					<td height="50px">						<div align="center">							<font color="blue">用户没有登录，请重新登录！</font>						</div>					</td>				</tr>			</table>		</div>	</body> </html>[0m[m
+[92m2022-10-18 13:17:02 I/辰猫: Plugin loaded[0m[m
+[92m2022-10-18 13:17:02 I/辰猫: 注入命令: 今日课表[0m[m
+[92m2022-10-18 13:17:02 I/辰猫: 注入命令: 明日课表[0m[m
+[92m2022-10-18 13:17:02 I/辰猫: 注入命令: 应技回放[0m[m
+[92m2022-10-18 13:17:02 I/stdout: [0m[m
+[92m2022-10-18 13:17:02 I/stdout: [0m[m
+[92m2022-10-18 13:17:02 I/stdout: [0m[m
+[92m2022-10-18 13:17:02 I/stdout: [0m[m
+[92m2022-10-18 13:17:02 I/stdout: <html>[0m[m
+[92m2022-10-18 13:17:02 I/stdout: 	<a href=/_ascnlink_k></a>[0m[m
+[92m2022-10-18 13:17:02 I/stdout: <head>[0m[m
+[92m2022-10-18 13:17:02 I/stdout: 	<base target="_self"/>[0m[m
+[92m2022-10-18 13:17:02 I/stdout: 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">[0m[m
+[92m2022-10-18 13:17:02 I/stdout: 		<title>�洪��椤甸��</title>[0m[m
+[92m2022-10-18 13:17:02 I/stdout: 		<style type="text/css">[0m[m
+[92m2022-10-18 13:17:02 I/stdout: 		<!--[0m[m
+[92m2022-10-18 13:17:02 I/stdout: 		body {[0m[m
+[92m2022-10-18 13:17:02 I/stdout: 			margin-top: 50px;[0m[m
+[92m2022-10-18 13:17:02 I/stdout: 		}[0m[m
+[92m2022-10-18 13:17:02 I/stdout: 		-->[0m[m
+[92m2022-10-18 13:17:02 I/stdout: 		</style> [0m[m
+[92m2022-10-18 13:17:02 I/stdout: 		<script language='javascript'>[0m[m
+[92m2022-10-18 13:17:02 I/stdout: 			var flag='1';[0m[m
+[92m2022-10-18 13:17:02 I/stdout: 			if(flag=='1' || flag=='2' ){ [0m[m
+[92m2022-10-18 13:17:02 I/stdout: 				window.location.href="/Logon.do?method=logout";[0m[m
+[92m2022-10-18 13:17:02 I/stdout: 			}[0m[m
+[92m2022-10-18 13:17:02 I/stdout: 		</script>[0m[m
+[92m2022-10-18 13:17:02 I/stdout: 	</head> [0m[m
+[92m2022-10-18 13:17:02 I/stdout: 	<body>[0m[m
+[92m2022-10-18 13:17:02 I/stdout: 		<div align="center">[0m[m
+[92m2022-10-18 13:17:02 I/stdout: 			<table width="50%" border="0">[0m[m
+[92m2022-10-18 13:17:02 I/stdout: 				<tr>[0m[m
+[92m2022-10-18 13:17:02 I/stdout: 					<td>[0m[m
+[92m2022-10-18 13:17:02 I/stdout: 						<div align="center">[0m[m
+[92m2022-10-18 13:17:02 I/stdout: 							<img src="/framework/images/chucuole.gif" width="105" height="110">[0m[m
+[92m2022-10-18 13:17:02 I/stdout: 						</div>[0m[m
+[92m2022-10-18 13:17:02 I/stdout: 					</td>[0m[m
+[92m2022-10-18 13:17:02 I/stdout: 				</tr>[0m[m
+[92m2022-10-18 13:17:02 I/stdout: 				<tr>[0m[m
+[92m2022-10-18 13:17:02 I/stdout: 					<td height="50px">[0m[m
+[92m2022-10-18 13:17:02 I/stdout: 						<div align="center">[0m[m
+[92m2022-10-18 13:17:02 I/stdout: 							<font color="blue">�ㄦ�锋病���诲�锛�璇烽���扮�诲�锛�</font>[0m[m
+[92m2022-10-18 13:17:02 I/stdout: 						</div>[0m[m
+[92m2022-10-18 13:17:02 I/stdout: 					</td>[0m[m
+[92m2022-10-18 13:17:02 I/stdout: 				</tr>[0m[m
+[92m2022-10-18 13:17:02 I/stdout: 			</table>[0m[m
+[92m2022-10-18 13:17:02 I/stdout: 		</div>[0m[m
+[92m2022-10-18 13:17:02 I/stdout: 	</body> [0m[m
+[92m2022-10-18 13:17:02 I/stdout: </html>[0m[m
+[92m2022-10-18 13:17:02 I/stdout: [0m[m

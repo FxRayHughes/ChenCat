@@ -1,0 +1,21 @@
+[92m2022-10-18 12:50:01 I/main: Starting mirai-console...[0m[m
+[92m2022-10-18 12:50:01 I/main: Backend: version 2.12.3, built on 2022-09-11 21:02:46.[0m[m
+[92m2022-10-18 12:50:01 I/main: Frontend Terminal: version 2.12.3, provided by Mamoe Technologies[0m[m
+[92m2022-10-18 12:50:01 I/main: Welcome to visit https://mirai.mamoe.net/[0m[m
+[92m2022-10-18 12:50:02 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop[0m[m
+[92m2022-10-18 12:50:02 I/main: 0 plugin(s) enabled.[0m[m
+[92m2022-10-18 12:50:02 I/main: mirai-console started successfully.[0m[m
+[92m2022-10-18 12:50:02 I/stdout: <html>	<a href=/_ascnlink_k></a><head>	<base target="_self"/>		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">		<title>出错页面</title>		<style type="text/css">		<!--		body {			margin-top: 50px;		}		-->		</style> 		<script language='javascript'>			var flag='1';			if(flag=='1' || flag=='2' ){ 				window.location.href="/Logon.do?method=logout";			}		</script>	</head> 	<body>		<div align="center">			<table width="50%" border="0">				<tr>					<td>						<div align="center">							<img src="/framework/images/chucuole.gif" width="105" height="110">						</div>					</td>				</tr>				<tr>					<td height="50px">						<div align="center">							<font color="blue">用户没有登录，请重新登录！</font>						</div>					</td>				</tr>			</table>		</div>	</body> </html>[0m[m
+[91m2022-10-18 12:50:02 W/stderr: Exception in thread "main" java.lang.ExceptionInInitializerError[0m[m
+[91m2022-10-18 12:50:02 W/stderr: 	at ray.mintcat.chencat.RunMiraiKt.main(RunMirai.kt:15)[0m[m
+[91m2022-10-18 12:50:02 W/stderr: 	at ray.mintcat.chencat.RunMiraiKt$main$2.invoke(RunMirai.kt)[0m[m
+[91m2022-10-18 12:50:02 W/stderr: 	at ray.mintcat.chencat.RunMiraiKt$main$2.invoke(RunMirai.kt)[0m[m
+[91m2022-10-18 12:50:02 W/stderr: 	at kotlin.coroutines.intrinsics.IntrinsicsKt__IntrinsicsJvmKt$createCoroutineUnintercepted$$inlined$createCoroutineFromSuspendFunction$IntrinsicsKt__IntrinsicsJvmKt$1.invokeSuspend(IntrinsicsJvm.kt:205)[0m[m
+[91m2022-10-18 12:50:02 W/stderr: 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)[0m[m
+[91m2022-10-18 12:50:02 W/stderr: 	at kotlin.coroutines.ContinuationKt.startCoroutine(Continuation.kt:115)[0m[m
+[91m2022-10-18 12:50:02 W/stderr: 	at kotlin.coroutines.jvm.internal.RunSuspendKt.runSuspend(RunSuspend.kt:19)[0m[m
+[91m2022-10-18 12:50:02 W/stderr: 	at ray.mintcat.chencat.RunMiraiKt.main(RunMirai.kt)[0m[m
+[91m2022-10-18 12:50:02 W/stderr: Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 2 out of bounds for length 1[0m[m
+[91m2022-10-18 12:50:02 W/stderr: 	at module.shst.MainSw.<init>(MainSw.kt:48)[0m[m
+[91m2022-10-18 12:50:02 W/stderr: 	at ray.mintcat.chencat.PluginMain.<clinit>(PluginMain.kt:25)[0m[m
+[91m2022-10-18 12:50:02 W/stderr: 	... 8 more[0m[m

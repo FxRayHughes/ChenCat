@@ -1,5 +1,6 @@
 package ray.mintcat.chencat
 
+import module.report.data.AppData
 import net.mamoe.mirai.alsoLogin
 import net.mamoe.mirai.console.MiraiConsole
 import net.mamoe.mirai.console.plugin.PluginManager.INSTANCE.enable
@@ -21,6 +22,8 @@ suspend fun main() {
 
     PluginMain.load()
     PluginMain.enable()
-    val calendar = Calendar.getInstance()
-    println(calendar.get(Calendar.HOUR_OF_DAY))
+
+    PluginMain.json.decodeFromString(AppData.serializer(),"")
+
+
 }

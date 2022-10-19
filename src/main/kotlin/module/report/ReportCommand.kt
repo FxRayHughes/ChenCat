@@ -43,17 +43,27 @@ object ReportCommand : BaseCommand("汇报") {
                     sender.sendMessage("权限不足", from)
                     return
                 }
-                if (type !in arrayOf("文字", "图片")) {
-                    sender.sendMessage("类型只能是 文字/图片")
+                if (type !in arrayOf("文字", "图片", "群相册")) {
+                    sender.sendMessage("类型只能是 文字/图片/群相册")
                     return
                 }
                 if (ReportConfig.taskList.keys.contains(id)) {
                     sender.sendMessage("代号重复了 重新定义一个")
                     return
                 }
+                ReportConfig.taskData[id] = mutableMapOf()
                 sender.group = PluginMain.group
-                sender.sendMessage(
-                    """
+                if (type == "群相册") {
+                    sender.sendMessage(
+                        """
+                    成功创建任务: ${id} 类型: ${type}
+                    请大家把图片上传至 ${id}相册
+                    !!!务必使用手机上传 电脑端会导致读取异常!!!
+                """.trimIndent()
+                    )
+                } else {
+                    sender.sendMessage(
+                        """
                     成功创建任务: ${id} 类型: ${type}
                     1. 请大家添加本机器人QQ好友
                     2. 私聊发送:
@@ -62,7 +72,8 @@ object ReportCommand : BaseCommand("汇报") {
                     4. 详细使用方式[图文]：
                     https://xv5zac7cto.feishu.cn/docx/E6kOdWHQ0oNhn6xKpEtcbhX2nYg
                 """.trimIndent()
-                )
+                    )
+                }
                 ReportConfig.taskList[id] = type
             }
 
@@ -146,7 +157,7 @@ object ReportCommand : BaseCommand("汇报") {
                     sender.sendMessage("请重新确认汇报代号")
                 }
                 when (type) {
-                    "文字" -> {
+                    "文字", "群相册" -> {
                         val list = ReportConfig.taskData.getOrPut(id) { mutableMapOf() }.keys
                         val groups = PluginMain.publicGroup ?: return
                         val strings = mutableListOf<String>()
@@ -203,7 +214,7 @@ object ReportCommand : BaseCommand("汇报") {
                     sender.sendMessage("请重新确认汇报代号")
                 }
                 when (type) {
-                    "文字" -> {
+                    "文字", "群相册" -> {
                         sender.sendMessage("http://cc.csor.cn:1150/d/chencat/${id}.xls")
                         Report.put(id)
                     }

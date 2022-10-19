@@ -1,0 +1,415 @@
+[92m2022-10-18 13:42:42 I/main: Starting mirai-console...[0m[m
+[92m2022-10-18 13:42:42 I/main: Backend: version 2.12.3, built on 2022-09-11 21:02:46.[0m[m
+[92m2022-10-18 13:42:42 I/main: Frontend Terminal: version 2.12.3, provided by Mamoe Technologies[0m[m
+[92m2022-10-18 13:42:42 I/main: Welcome to visit https://mirai.mamoe.net/[0m[m
+[92m2022-10-18 13:42:43 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop[0m[m
+[92m2022-10-18 13:42:43 I/main: 0 plugin(s) enabled.[0m[m
+[92m2022-10-18 13:42:43 I/main: mirai-console started successfully.[0m[m
+[92m2022-10-18 13:42:43 I/stdout: <html>	<a href=/_ascnlink_k></a><head>	<base target="_self"/>		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">		<title>出错页面</title>		<style type="text/css">		<!--		body {			margin-top: 50px;		}		-->		</style> 		<script language='javascript'>			var flag='1';			if(flag=='1' || flag=='2' ){ 				window.location.href="/Logon.do?method=logout";			}		</script>	</head> 	<body>		<div align="center">			<table width="50%" border="0">				<tr>					<td>						<div align="center">							<img src="/framework/images/chucuole.gif" width="105" height="110">						</div>					</td>				</tr>				<tr>					<td height="50px">						<div align="center">							<font color="blue">用户没有登录，请重新登录！</font>						</div>					</td>				</tr>			</table>		</div>	</body> </html>[0m[m
+[92m2022-10-18 13:42:43 I/辰猫: Plugin loaded[0m[m
+[92m2022-10-18 13:42:43 I/辰猫: 注入命令: 今日课表[0m[m
+[92m2022-10-18 13:42:43 I/辰猫: 注入命令: 明日课表[0m[m
+[92m2022-10-18 13:42:43 I/辰猫: 注入命令: 应技回放[0m[m
+[92m2022-10-18 13:42:44 I/stdout: [0m[m
+[92m2022-10-18 13:42:44 I/stdout: [0m[m
+[92m2022-10-18 13:42:44 I/stdout: [0m[m
+[92m2022-10-18 13:42:44 I/stdout: [0m[m
+[92m2022-10-18 13:42:44 I/stdout: [0m[m
+[92m2022-10-18 13:42:44 I/stdout: [0m[m
+[92m2022-10-18 13:42:44 I/stdout: [0m[m
+[92m2022-10-18 13:42:44 I/stdout: [0m[m
+[92m2022-10-18 13:42:44 I/stdout: [0m[m
+[92m2022-10-18 13:42:44 I/stdout: <!DOCTYPE html>[0m[m
+[92m2022-10-18 13:42:44 I/stdout: <html lang="en">[0m[m
+[92m2022-10-18 13:42:44 I/stdout: <style>[0m[m
+[92m2022-10-18 13:42:44 I/stdout:     [0m[m
+[92m2022-10-18 13:42:44 I/stdout: </style>[0m[m
+[92m2022-10-18 13:42:44 I/stdout: <a href=/_ascnlink_k></a>[0m[m
+[92m2022-10-18 13:42:44 I/stdout: <head>[0m[m
+[92m2022-10-18 13:42:44 I/stdout:     <meta charset="UTF-8">[0m[m
+[92m2022-10-18 13:42:44 I/stdout:     <meta name="renderer" content="webkit">[0m[m
+[92m2022-10-18 13:42:44 I/stdout:     <meta name="viewport" content="width=device-width, initial-scale=1.0">[0m[m
+[92m2022-10-18 13:42:44 I/stdout:     <meta http-equiv="X-UA-Compatible" content="ie=edge">[0m[m
+[92m2022-10-18 13:42:44 I/stdout:     <link rel="stylesheet" href="/jsxsd/assets/css/login.css">[0m[m
+[92m2022-10-18 13:42:44 I/stdout:     <link rel="stylesheet" type="text/css" href="/jsxsd/css/style.css">[0m[m
+[92m2022-10-18 13:42:44 I/stdout:     <link rel="stylesheet" type="text/css" href="/jsxsd/assets/plugins/layui/layui.css"/>[0m[m
+[92m2022-10-18 13:42:44 I/stdout:     <title>登录</title>[0m[m
+[92m2022-10-18 13:42:44 I/stdout:     <meta http-equiv="keywords" content="教务管理 数字校园 综合教务管理 教学管理 中职数字校园 强智科技 高校教务 迎新 学工系统 收费系统 人事管理 科研管理 课程资源 网站群 在线支付管理 一卡通 智慧教室" />[0m[m
+[92m2022-10-18 13:42:44 I/stdout:     <meta http-equiv="description" content="湖南强智科技发展有限公司（www.qzdatasoft.com）是中国数字化校园软件专业提供商。十多年来，强智科技一直致力于中国教育信息化平台的研发与推广；强智新一代综合教学管理平台将教、学、管理、服务与决策完美结合的设计理念，众多高校的成功实施，必将成为行业的标杆，永载史册。" />[0m[m
+[92m2022-10-18 13:42:44 I/stdout: [0m[m
+[92m2022-10-18 13:42:44 I/stdout: </head>[0m[m
+[92m2022-10-18 13:42:44 I/stdout: <body>[0m[m
+[92m2022-10-18 13:42:44 I/stdout:         <div class="edu-container-new">[0m[m
+[92m2022-10-18 13:42:44 I/stdout:             <div class="edu-content-new">[0m[m
+[92m2022-10-18 13:42:44 I/stdout:                 <div class="lf">[0m[m
+[92m2022-10-18 13:42:44 I/stdout:                     <div class="edu-map-new">[0m[m
+[92m2022-10-18 13:42:44 I/stdout:                         <div class="layui-carousel" id="swiper">[0m[m
+[92m2022-10-18 13:42:44 I/stdout:                             <div class="logo-area-new">[0m[m
+[92m2022-10-18 13:42:44 I/stdout:                                 <img src="/jsxsd/assets/images/logo.png" alt="">[0m[m
+[92m2022-10-18 13:42:44 I/stdout:                                 <p>教务一体化系统</p>[0m[m
+[92m2022-10-18 13:42:44 I/stdout:                             </div>[0m[m
+[92m2022-10-18 13:42:44 I/stdout:                             <div carousel-item>[0m[m
+[92m2022-10-18 13:42:44 I/stdout:                                 <img src="/jsxsd/assets/images/swiper.png" style="width:358px;height:320px"/>[0m[m
+[92m2022-10-18 13:42:44 I/stdout:                                 <img src="/jsxsd/assets/images/swiper1x.png" style="width:358px;height:320px"/>[0m[m
+[92m2022-10-18 13:42:44 I/stdout:                                 <img src="/jsxsd/assets/images/swiper2x.png" style="width:358px;height:320px"/>[0m[m
+[92m2022-10-18 13:42:44 I/stdout:                             </div>[0m[m
+[92m2022-10-18 13:42:44 I/stdout:                         </div>[0m[m
+[92m2022-10-18 13:42:44 I/stdout:                     </div>[0m[m
+[92m2022-10-18 13:42:44 I/stdout:                 </div>[0m[m
+[92m2022-10-18 13:42:44 I/stdout:                 <form id="loginForm" name="loginForm" action="/jsxsd/xk/LoginToXk" method="post">[0m[m
+[92m2022-10-18 13:42:44 I/stdout:                     <input type="hidden" name="loginMethod" value="LoginToXk">[0m[m
+[92m2022-10-18 13:42:44 I/stdout:                     <div class="rt login-form-new">[0m[m
+[92m2022-10-18 13:42:44 I/stdout:                         <h2>用户登录</h2>[0m[m
+[92m2022-10-18 13:42:44 I/stdout:                         <p style="margin-bottom: 12px">&nbsp;&nbsp;</p>[0m[m
+[92m2022-10-18 13:42:44 I/stdout:                         <div class="form-item-new">[0m[m
+[92m2022-10-18 13:42:44 I/stdout:                             <span for="">账号</span>[0m[m
+[92m2022-10-18 13:42:44 I/stdout:                             <input type="text"  id="userAccount" name="userAccount" placeholder="请输入账号">[0m[m
+[92m2022-10-18 13:42:44 I/stdout:                         </div>[0m[m
+[92m2022-10-18 13:42:44 I/stdout:                         <div class="form-item-new">[0m[m
+[92m2022-10-18 13:42:44 I/stdout:                             <span for="">密码</span>[0m[m
+[92m2022-10-18 13:42:44 I/stdout:                             <input type="password"  id="userPassword" name="userPassword"  placeholder="请输入密码">[0m[m
+[92m2022-10-18 13:42:44 I/stdout:                         </div>[0m[m
+[92m2022-10-18 13:42:44 I/stdout:                         <div class="form-item">[0m[m
+[92m2022-10-18 13:42:44 I/stdout:                             <font color="red" size="2" id="showMsg">	 请先登录系统</font>[0m[m
+[92m2022-10-18 13:42:44 I/stdout:                         </div>[0m[m
+[92m2022-10-18 13:42:44 I/stdout: [0m[m
+[92m2022-10-18 13:42:44 I/stdout:                         [0m[m
+[92m2022-10-18 13:42:44 I/stdout:                         [0m[m
+[92m2022-10-18 13:42:44 I/stdout:                         <div class="form-item-new">[0m[m
+[92m2022-10-18 13:42:44 I/stdout:                             [0m[m
+[92m2022-10-18 13:42:44 I/stdout:                                 <a class="password-text rt" href="/jsxsd/view/findpwd/enteraccount.htmlx" target="_blank" >忘记密码</a>[0m[m
+[92m2022-10-18 13:42:44 I/stdout:                             [0m[m
+[92m2022-10-18 13:42:44 I/stdout:                             [0m[m
+[92m2022-10-18 13:42:44 I/stdout:                             [0m[m
+[92m2022-10-18 13:42:44 I/stdout:                         </div>[0m[m
+[92m2022-10-18 13:42:44 I/stdout:                         [0m[m
+[92m2022-10-18 13:42:44 I/stdout:                         <a class="btn-login-new" id="btn-login" onclick="submitForm1()" >登录</a>[0m[m
+[92m2022-10-18 13:42:44 I/stdout:                         <div class="form-item">[0m[m
+[92m2022-10-18 13:42:44 I/stdout:                         </div>[0m[m
+[92m2022-10-18 13:42:44 I/stdout:                         [0m[m
+[92m2022-10-18 13:42:44 I/stdout:                             <p class="login-cr" style="color: red;"> 温馨提示：推荐使用谷歌Chrome浏览器以及360极速模式。</p>[0m[m
+[92m2022-10-18 13:42:44 I/stdout:                             <p style=" position: absolute;width: 100%; left: 0;text-align: center;bottom: -4px;color: red;" > &nbsp;&nbsp;推荐在分辨率1920*1080下使用最佳。</p>[0m[m
+[92m2022-10-18 13:42:44 I/stdout:                             <p style=" position: absolute;width: 100%; left: 0;text-align: center;bottom: -32px;color: #C8C8C8;" >Copyright © 2020.湖南强智科技发展有限公司 </p>[0m[m
+[92m2022-10-18 13:42:44 I/stdout:                         [0m[m
+[92m2022-10-18 13:42:44 I/stdout:                         <input name="encoded" id="encoded" type="hidden" value=""/>[0m[m
+[92m2022-10-18 13:42:44 I/stdout:                         [0m[m
+[92m2022-10-18 13:42:44 I/stdout:                         [0m[m
+[92m2022-10-18 13:42:44 I/stdout:                     </div>[0m[m
+[92m2022-10-18 13:42:44 I/stdout:                 </form>[0m[m
+[92m2022-10-18 13:42:44 I/stdout:             </div>[0m[m
+[92m2022-10-18 13:42:44 I/stdout: [0m[m
+[92m2022-10-18 13:42:44 I/stdout:         </div>[0m[m
+[92m2022-10-18 13:42:44 I/stdout: </body>[0m[m
+[92m2022-10-18 13:42:44 I/stdout: </html>[0m[m
+[92m2022-10-18 13:42:44 I/stdout: [0m[m
+[92m2022-10-18 13:42:44 I/stdout: [0m[m
+[92m2022-10-18 13:42:44 I/stdout: <script src="/jsxsd/assets/js/comm/jquery.min.js"></script>[0m[m
+[92m2022-10-18 13:42:44 I/stdout: <script type="text/javascript" src="/jsxsd/js/jqChart/js/jquery-3.5.1.min.js"></script>[0m[m
+[92m2022-10-18 13:42:44 I/stdout: <script type="text/javascript" src="/jsxsd/js/bootstrap/js/bootstrap.min.js"></script>[0m[m
+[92m2022-10-18 13:42:44 I/stdout: <script type="text/javascript" src="/jsxsd/js/conwork.js"></script>[0m[m
+[92m2022-10-18 13:42:44 I/stdout: <script src="/jsxsd/assets/plugins/layui/layui.all.js" type="text/javascript" charset="utf-8"></script>[0m[m
+[92m2022-10-18 13:42:44 I/stdout: <script language="javascript">[0m[m
+[92m2022-10-18 13:42:44 I/stdout:     (function () {[0m[m
+[92m2022-10-18 13:42:44 I/stdout:         var xxdm = '412201';[0m[m
+[92m2022-10-18 13:42:44 I/stdout:         if(xxdm == '10534'){[0m[m
+[92m2022-10-18 13:42:44 I/stdout:             $("#indexbg").removeClass("edu-container-new").addClass("edu-container-new_hnkjdx");[0m[m
+[92m2022-10-18 13:42:44 I/stdout:         }[0m[m
+[92m2022-10-18 13:42:44 I/stdout:         if(xxdm == '12649'){[0m[m
+[92m2022-10-18 13:42:44 I/stdout:             $("#indexbg").removeClass("edu-container-new").addClass("edu-container-new_hnkjdxxxxy");[0m[m
+[92m2022-10-18 13:42:44 I/stdout:         }[0m[m
+[92m2022-10-18 13:42:44 I/stdout:     })();[0m[m
+[92m2022-10-18 13:42:44 I/stdout: [0m[m
+[92m2022-10-18 13:42:44 I/stdout: [0m[m
+[92m2022-10-18 13:42:44 I/stdout:     layui.use('carousel', function(){[0m[m
+[92m2022-10-18 13:42:44 I/stdout:         var carousel = layui.carousel;[0m[m
+[92m2022-10-18 13:42:44 I/stdout:         //建造实例[0m[m
+[92m2022-10-18 13:42:44 I/stdout:         carousel.render({[0m[m
+[92m2022-10-18 13:42:44 I/stdout:             elem: '#swiper',[0m[m
+[92m2022-10-18 13:42:44 I/stdout:             width: '100%' ,[0m[m
+[92m2022-10-18 13:42:44 I/stdout:             height:'100%',[0m[m
+[92m2022-10-18 13:42:44 I/stdout:             arrow: 'none' ,[0m[m
+[92m2022-10-18 13:42:44 I/stdout:             indicator:'inside'[0m[m
+[92m2022-10-18 13:42:44 I/stdout:         });[0m[m
+[92m2022-10-18 13:42:44 I/stdout:     });[0m[m
+[92m2022-10-18 13:42:44 I/stdout:     $('select').change(function(){[0m[m
+[92m2022-10-18 13:42:44 I/stdout:         $(this).css('color','#272727');[0m[m
+[92m2022-10-18 13:42:44 I/stdout:         $(this).css('font-weight','400');[0m[m
+[92m2022-10-18 13:42:44 I/stdout:     });[0m[m
+[92m2022-10-18 13:42:44 I/stdout:     //是否启用APP下载二维码[0m[m
+[92m2022-10-18 13:42:44 I/stdout:     [0m[m
+[92m2022-10-18 13:42:44 I/stdout:     function ReShowCode(){[0m[m
+[92m2022-10-18 13:42:44 I/stdout:         var SafeCodeImg = document.getElementById("SafeCodeImg");[0m[m
+[92m2022-10-18 13:42:44 I/stdout:         var url="/jsxsd/verifycode.servlet?t="+Math.random();[0m[m
+[92m2022-10-18 13:42:44 I/stdout:         SafeCodeImg.src = url;[0m[m
+[92m2022-10-18 13:42:44 I/stdout:     }[0m[m
+[92m2022-10-18 13:42:44 I/stdout: [0m[m
+[92m2022-10-18 13:42:44 I/stdout:     function ReShowCode(){[0m[m
+[92m2022-10-18 13:42:44 I/stdout:         var SafeCodeImg = document.getElementById("SafeCodeImg");[0m[m
+[92m2022-10-18 13:42:44 I/stdout:         var url = "/jsxsd/verifycode.servlet?t="+Math.random();[0m[m
+[92m2022-10-18 13:42:44 I/stdout:         SafeCodeImg.src = url;[0m[m
+[92m2022-10-18 13:42:44 I/stdout:     }[0m[m
+[92m2022-10-18 13:42:44 I/stdout:     function login() {[0m[m
+[92m2022-10-18 13:42:44 I/stdout:         if($("#userAccount").val() == "") {[0m[m
+[92m2022-10-18 13:42:44 I/stdout:             $("#showMsg").text("请输入账号");[0m[m
+[92m2022-10-18 13:42:44 I/stdout:             $("#userAccount").focus();[0m[m
+[92m2022-10-18 13:42:44 I/stdout:             return false;[0m[m
+[92m2022-10-18 13:42:44 I/stdout:         }[0m[m
+[92m2022-10-18 13:42:44 I/stdout:         if($("#userPassword").val() == "") {[0m[m
+[92m2022-10-18 13:42:44 I/stdout:             $("#showMsg").text("请输入密码");[0m[m
+[92m2022-10-18 13:42:44 I/stdout:             $("#userPassword").focus();[0m[m
+[92m2022-10-18 13:42:44 I/stdout:             return false;[0m[m
+[92m2022-10-18 13:42:44 I/stdout:         }[0m[m
+[92m2022-10-18 13:42:44 I/stdout:         [0m[m
+[92m2022-10-18 13:42:44 I/stdout: [0m[m
+[92m2022-10-18 13:42:44 I/stdout:         var strUrl = "/jsxsd/Logon.do?method=logon&flag=sess";[0m[m
+[92m2022-10-18 13:42:44 I/stdout: [0m[m
+[92m2022-10-18 13:42:44 I/stdout: [0m[m
+[92m2022-10-18 13:42:44 I/stdout:         $.ajax( {[0m[m
+[92m2022-10-18 13:42:44 I/stdout:             url:strUrl,[0m[m
+[92m2022-10-18 13:42:44 I/stdout:             type:"post",[0m[m
+[92m2022-10-18 13:42:44 I/stdout:             cache:false,[0m[m
+[92m2022-10-18 13:42:44 I/stdout:             dataType:"text",[0m[m
+[92m2022-10-18 13:42:44 I/stdout:             success:function(dataStr) {[0m[m
+[92m2022-10-18 13:42:44 I/stdout:                 if(dataStr=="no"){[0m[m
+[92m2022-10-18 13:42:44 I/stdout:                     return false;[0m[m
+[92m2022-10-18 13:42:44 I/stdout:                 }else{[0m[m
+[92m2022-10-18 13:42:44 I/stdout:                     var scode=dataStr.split("#")[0];[0m[m
+[92m2022-10-18 13:42:44 I/stdout:                     var sxh=dataStr.split("#")[1];[0m[m
+[92m2022-10-18 13:42:44 I/stdout: [0m[m
+[92m2022-10-18 13:42:44 I/stdout:                     var code=document.getElementById("userAccount").value+"%%%"+document.getElementById("userPassword").value;[0m[m
+[92m2022-10-18 13:42:44 I/stdout:                     var encoded="";[0m[m
+[92m2022-10-18 13:42:44 I/stdout:                     for(var i=0;i<code.length;i++){[0m[m
+[92m2022-10-18 13:42:44 I/stdout:                         if(i<20){[0m[m
+[92m2022-10-18 13:42:44 I/stdout:                             encoded=encoded+code.substring(i,i+1)+scode.substring(0,parseInt(sxh.substring(i,i+1)));[0m[m
+[92m2022-10-18 13:42:44 I/stdout:                             scode = scode.substring(parseInt(sxh.substring(i,i+1)),scode.length);[0m[m
+[92m2022-10-18 13:42:44 I/stdout:                         }else{[0m[m
+[92m2022-10-18 13:42:44 I/stdout:                             encoded=encoded+code.substring(i,code.length);[0m[m
+[92m2022-10-18 13:42:44 I/stdout:                             i=code.length;[0m[m
+[92m2022-10-18 13:42:44 I/stdout:                         }[0m[m
+[92m2022-10-18 13:42:44 I/stdout:                     }[0m[m
+[92m2022-10-18 13:42:44 I/stdout:                     document.getElementById("encoded").value=encoded;[0m[m
+[92m2022-10-18 13:42:44 I/stdout:                     if("LoginToXk"!="logonLdap"){[0m[m
+[92m2022-10-18 13:42:44 I/stdout:                         document.getElementById("userPassword").value="";[0m[m
+[92m2022-10-18 13:42:44 I/stdout:                     }[0m[m
+[92m2022-10-18 13:42:44 I/stdout: [0m[m
+[92m2022-10-18 13:42:44 I/stdout:                     document.getElementById("loginForm").submit();[0m[m
+[92m2022-10-18 13:42:44 I/stdout:                 }[0m[m
+[92m2022-10-18 13:42:44 I/stdout:             },[0m[m
+[92m2022-10-18 13:42:44 I/stdout:             error:function() {[0m[m
+[92m2022-10-18 13:42:44 I/stdout:                 alert("计算异常！");[0m[m
+[92m2022-10-18 13:42:44 I/stdout:             }[0m[m
+[92m2022-10-18 13:42:44 I/stdout:         });[0m[m
+[92m2022-10-18 13:42:44 I/stdout:     }[0m[m
+[92m2022-10-18 13:42:44 I/stdout:     $(function(){[0m[m
+[92m2022-10-18 13:42:44 I/stdout:         $(document).on("keyup", function(e){[0m[m
+[92m2022-10-18 13:42:44 I/stdout:             if(e.keyCode == 13) {[0m[m
+[92m2022-10-18 13:42:44 I/stdout:                 submitForm1();[0m[m
+[92m2022-10-18 13:42:44 I/stdout:             }[0m[m
+[92m2022-10-18 13:42:44 I/stdout:         });[0m[m
+[92m2022-10-18 13:42:44 I/stdout:     });[0m[m
+[92m2022-10-18 13:42:44 I/stdout: [0m[m
+[92m2022-10-18 13:42:44 I/stdout: [0m[m
+[92m2022-10-18 13:42:44 I/stdout:     function submitForm1(){[0m[m
+[92m2022-10-18 13:42:44 I/stdout:         try{[0m[m
+[92m2022-10-18 13:42:44 I/stdout:             var xh = document.getElementById("userAccount").value;[0m[m
+[92m2022-10-18 13:42:44 I/stdout:             var pwd = document.getElementById("userPassword").value;[0m[m
+[92m2022-10-18 13:42:44 I/stdout:             if(xh==""){[0m[m
+[92m2022-10-18 13:42:44 I/stdout:                 alert("用户名不能为空！");[0m[m
+[92m2022-10-18 13:42:44 I/stdout:                 return false;[0m[m
+[92m2022-10-18 13:42:44 I/stdout:             }[0m[m
+[92m2022-10-18 13:42:44 I/stdout:             if(pwd==""){[0m[m
+[92m2022-10-18 13:42:44 I/stdout:                 alert("密码不能为空！");[0m[m
+[92m2022-10-18 13:42:44 I/stdout:                 return false;[0m[m
+[92m2022-10-18 13:42:44 I/stdout:             }[0m[m
+[92m2022-10-18 13:42:44 I/stdout: [0m[m
+[92m2022-10-18 13:42:44 I/stdout:             var account = encodeInp(xh);[0m[m
+[92m2022-10-18 13:42:44 I/stdout: [0m[m
+[92m2022-10-18 13:42:44 I/stdout:             var passwd = encodeInp(pwd);[0m[m
+[92m2022-10-18 13:42:44 I/stdout:             var encoded = account+"%%%"+passwd;[0m[m
+[92m2022-10-18 13:42:44 I/stdout:             document.getElementById("encoded").value = encoded;[0m[m
+[92m2022-10-18 13:42:44 I/stdout: [0m[m
+[92m2022-10-18 13:42:44 I/stdout:         //    var jzmmid = document.getElementById("Form1").jzmmid;[0m[m
+[92m2022-10-18 13:42:44 I/stdout:         //    alert('=====sss=');[0m[m
+[92m2022-10-18 13:42:44 I/stdout:             if("LoginToXk"!="logonLdap"){[0m[m
+[92m2022-10-18 13:42:44 I/stdout:                 document.getElementById("userPassword").value="";[0m[m
+[92m2022-10-18 13:42:44 I/stdout:             }[0m[m
+[92m2022-10-18 13:42:44 I/stdout:             document.getElementById("loginForm").submit();[0m[m
+[92m2022-10-18 13:42:44 I/stdout:         }catch(e){[0m[m
+[92m2022-10-18 13:42:44 I/stdout:             alert(e);[0m[m
+[92m2022-10-18 13:42:44 I/stdout:             return false;[0m[m
+[92m2022-10-18 13:42:44 I/stdout:         }[0m[m
+[92m2022-10-18 13:42:44 I/stdout:     }[0m[m
+[92m2022-10-18 13:42:44 I/stdout: [0m[m
+[92m2022-10-18 13:42:44 I/stdout:     //根据用户帐号选择登录服务器[0m[m
+[92m2022-10-18 13:42:44 I/stdout:     function selectServer(uName){[0m[m
+[92m2022-10-18 13:42:44 I/stdout:         var enableServers = true;//是否启用多服务器 true/false[0m[m
+[92m2022-10-18 13:42:44 I/stdout:         var serversArray = new Array();//服务器列表[0m[m
+[92m2022-10-18 13:42:44 I/stdout: [0m[m
+[92m2022-10-18 13:42:44 I/stdout:         [0m[m
+[92m2022-10-18 13:42:44 I/stdout:         serversArray[0] = "http://192.168.1.70:8080/jsxsd/";[0m[m
+[92m2022-10-18 13:42:44 I/stdout:         [0m[m
+[92m2022-10-18 13:42:44 I/stdout:         serversArray[1] = "http://192.168.1.71:8080/jsxsd/";[0m[m
+[92m2022-10-18 13:42:44 I/stdout:         [0m[m
+[92m2022-10-18 13:42:44 I/stdout: [0m[m
+[92m2022-10-18 13:42:44 I/stdout:         var loginUrl = "xk/LoginToXk";[0m[m
+[92m2022-10-18 13:42:44 I/stdout:         if(enableServers == true){[0m[m
+[92m2022-10-18 13:42:44 I/stdout:             if(!/[^\d]/.test(uName)){//必须为数字[0m[m
+[92m2022-10-18 13:42:44 I/stdout:                 var modVal = eval(uName % serversArray.length);[0m[m
+[92m2022-10-18 13:42:44 I/stdout:                 loginUrl = serversArray[modVal] + loginUrl;[0m[m
+[92m2022-10-18 13:42:44 I/stdout:             }else{[0m[m
+[92m2022-10-18 13:42:44 I/stdout:                 loginUrl = serversArray[0] + loginUrl;[0m[m
+[92m2022-10-18 13:42:44 I/stdout:             }[0m[m
+[92m2022-10-18 13:42:44 I/stdout:         }else{[0m[m
+[92m2022-10-18 13:42:44 I/stdout:             loginUrl = "/jsxsd"+ loginUrl;[0m[m
+[92m2022-10-18 13:42:44 I/stdout:         }[0m[m
+[92m2022-10-18 13:42:44 I/stdout:         return loginUrl;[0m[m
+[92m2022-10-18 13:42:44 I/stdout:     }[0m[m
+[92m2022-10-18 13:42:44 I/stdout: [0m[m
+[92m2022-10-18 13:42:44 I/stdout:     /***[0m[m
+[92m2022-10-18 13:42:44 I/stdout:      *切换验证码[0m[m
+[92m2022-10-18 13:42:44 I/stdout:      **/[0m[m
+[92m2022-10-18 13:42:44 I/stdout:     function QRcodeFun(type) {[0m[m
+[92m2022-10-18 13:42:44 I/stdout:         if("1" == type ){[0m[m
+[92m2022-10-18 13:42:44 I/stdout:             $("#ul1").hide();[0m[m
+[92m2022-10-18 13:42:44 I/stdout:             $("#ul2").show();[0m[m
+[92m2022-10-18 13:42:44 I/stdout:             $("#QRcodeSkip").hide();[0m[m
+[92m2022-10-18 13:42:44 I/stdout:         }else{[0m[m
+[92m2022-10-18 13:42:44 I/stdout:             $("#ul2").hide();[0m[m
+[92m2022-10-18 13:42:44 I/stdout:             $("#ul1").show();[0m[m
+[92m2022-10-18 13:42:44 I/stdout:             $("#QRcodeSkip").show();[0m[m
+[92m2022-10-18 13:42:44 I/stdout:         }[0m[m
+[92m2022-10-18 13:42:44 I/stdout: [0m[m
+[92m2022-10-18 13:42:44 I/stdout:     }[0m[m
+[92m2022-10-18 13:42:44 I/stdout: [0m[m
+[92m2022-10-18 13:42:44 I/stdout:     function getBrowser(n) {[0m[m
+[92m2022-10-18 13:42:44 I/stdout:         var ua = navigator.userAgent.toLowerCase(),[0m[m
+[92m2022-10-18 13:42:44 I/stdout:             s,[0m[m
+[92m2022-10-18 13:42:44 I/stdout:             name = '',[0m[m
+[92m2022-10-18 13:42:44 I/stdout:             ver = 0;[0m[m
+[92m2022-10-18 13:42:44 I/stdout:         //探测浏览器[0m[m
+[92m2022-10-18 13:42:44 I/stdout:         (s = ua.match(/msie ([\d.]+)/)) ? _set("IE", _toFixedVersion(s[1])):[0m[m
+[92m2022-10-18 13:42:44 I/stdout:             (s = ua.match(/firefox\/([\d.]+)/)) ? _set("firefox", _toFixedVersion(s[1])) :[0m[m
+[92m2022-10-18 13:42:44 I/stdout:                 (s = ua.match(/chrome\/([\d.]+)/)) ? _set("chrome", _toFixedVersion(s[1])) :[0m[m
+[92m2022-10-18 13:42:44 I/stdout:                     (s = ua.match(/opera.([\d.]+)/)) ? _set("opera", _toFixedVersion(s[1])) :[0m[m
+[92m2022-10-18 13:42:44 I/stdout:                         (s = ua.match(/version\/([\d.]+).*safari/)) ? _set("safari", _toFixedVersion(s[1])) : 0;[0m[m
+[92m2022-10-18 13:42:44 I/stdout: [0m[m
+[92m2022-10-18 13:42:44 I/stdout:         function _toFixedVersion(ver, floatLength) {[0m[m
+[92m2022-10-18 13:42:44 I/stdout:             ver = ('' + ver).replace(/_/g, '.');[0m[m
+[92m2022-10-18 13:42:44 I/stdout:             floatLength = floatLength || 1;[0m[m
+[92m2022-10-18 13:42:44 I/stdout:             ver = String(ver).split('.');[0m[m
+[92m2022-10-18 13:42:44 I/stdout:             ver = ver[0] + '.' + (ver[1] || '0');[0m[m
+[92m2022-10-18 13:42:44 I/stdout:             ver = Number(ver).toFixed(floatLength);[0m[m
+[92m2022-10-18 13:42:44 I/stdout:             return ver;[0m[m
+[92m2022-10-18 13:42:44 I/stdout:         }[0m[m
+[92m2022-10-18 13:42:44 I/stdout:         function _set(bname, bver) {[0m[m
+[92m2022-10-18 13:42:44 I/stdout:             name = bname;[0m[m
+[92m2022-10-18 13:42:44 I/stdout:             ver = bver;[0m[m
+[92m2022-10-18 13:42:44 I/stdout:         }[0m[m
+[92m2022-10-18 13:42:44 I/stdout:         return (n == 'n' ? name : (n == 'v' ? ver : name + ver));[0m[m
+[92m2022-10-18 13:42:44 I/stdout:     }[0m[m
+[92m2022-10-18 13:42:44 I/stdout: [0m[m
+[92m2022-10-18 13:42:44 I/stdout:     var neihe = getBrowser("n"); // 所获得的就是浏览器所用内核。[0m[m
+[92m2022-10-18 13:42:44 I/stdout:     var banben = getBrowser("v");// 所获得的就是浏览器的版本号。[0m[m
+[92m2022-10-18 13:42:44 I/stdout:     var browser = getBrowser();// 所获得的就是浏览器内核加版本号。[0m[m
+[92m2022-10-18 13:42:44 I/stdout:     if(browser=='IE10.0' || browser=='IE9.0' || browser=='IE8.0' || browser=='IE7.0' || browser=='IE6.0' || browser=='IE5.0'){[0m[m
+[92m2022-10-18 13:42:44 I/stdout:         $("#showMsg").text("当前浏览器版本不适用，请使用推荐浏览器");[0m[m
+[92m2022-10-18 13:42:44 I/stdout:         document.getElementById("btn-login").innerHTML="查看推荐浏览器";[0m[m
+[92m2022-10-18 13:42:44 I/stdout:         document.getElementById("btn-login").onclick = myAlert;[0m[m
+[92m2022-10-18 13:42:44 I/stdout: [0m[m
+[92m2022-10-18 13:42:44 I/stdout:     }[0m[m
+[92m2022-10-18 13:42:44 I/stdout:     function myAlert(){[0m[m
+[92m2022-10-18 13:42:44 I/stdout:         window.open('/jsxsd/framework/findllq.htmlx',450,200);[0m[m
+[92m2022-10-18 13:42:44 I/stdout:     }[0m[m
+[92m2022-10-18 13:42:44 I/stdout: [0m[m
+[92m2022-10-18 13:42:44 I/stdout:     function wjmm(){[0m[m
+[92m2022-10-18 13:42:44 I/stdout:         alert("联系学院教学秘书进行密码重置");[0m[m
+[92m2022-10-18 13:42:44 I/stdout:         return false;[0m[m
+[92m2022-10-18 13:42:44 I/stdout:     }[0m[m
+[92m2022-10-18 13:42:44 I/stdout:    [0m[m
+[92m2022-10-18 13:42:44 I/stdout:     (function ($) {[0m[m
+[92m2022-10-18 13:42:44 I/stdout:         $.fn.extend({[0m[m
+[92m2022-10-18 13:42:44 I/stdout:             capsLockTip: function () {[0m[m
+[92m2022-10-18 13:42:44 I/stdout:                 return this.each(function () {[0m[m
+[92m2022-10-18 13:42:44 I/stdout:                     //创建对象实例并保存。[0m[m
+[92m2022-10-18 13:42:44 I/stdout:                     //获取实例对象：var api = $("#txtPWD").data("txtPWD");[0m[m
+[92m2022-10-18 13:42:44 I/stdout:                     var ins = new $.CapsLockTip($(this));[0m[m
+[92m2022-10-18 13:42:44 I/stdout:                     $(this).data(this.id, ins);[0m[m
+[92m2022-10-18 13:42:44 I/stdout:                 });[0m[m
+[92m2022-10-18 13:42:44 I/stdout:             }[0m[m
+[92m2022-10-18 13:42:44 I/stdout:         });[0m[m
+[92m2022-10-18 13:42:44 I/stdout: [0m[m
+[92m2022-10-18 13:42:44 I/stdout: [0m[m
+[92m2022-10-18 13:42:44 I/stdout:         //创建一个实例。[0m[m
+[92m2022-10-18 13:42:44 I/stdout:         //___target jq目标对象。[0m[m
+[92m2022-10-18 13:42:44 I/stdout:         //___divTipID   显示提示文本的div。[0m[m
+[92m2022-10-18 13:42:44 I/stdout:         $.CapsLockTip = function (___target) {[0m[m
+[92m2022-10-18 13:42:44 I/stdout:             //设置当前实例的配置参数。[0m[m
+[92m2022-10-18 13:42:44 I/stdout:             this.target = ___target;[0m[m
+[92m2022-10-18 13:42:44 I/stdout:             var _this = this;[0m[m
+[92m2022-10-18 13:42:44 I/stdout: [0m[m
+[92m2022-10-18 13:42:44 I/stdout:             $(document).ready(function () {[0m[m
+[92m2022-10-18 13:42:44 I/stdout:                 _this.target.bind("keypress", function (_event) {[0m[m
+[92m2022-10-18 13:42:44 I/stdout:                     var e = _event || window.event;[0m[m
+[92m2022-10-18 13:42:44 I/stdout:                     var kc = e.keyCode || e.which;[0m[m
+[92m2022-10-18 13:42:44 I/stdout:                     var isShift = e.shiftKey || (kc == 16) || false;[0m[m
+[92m2022-10-18 13:42:44 I/stdout:                     $.fn.capsLockTip.capsLockActived = false;[0m[m
+[92m2022-10-18 13:42:44 I/stdout:                     if ((kc >= 65 && kc <= 90 && !isShift) || (kc >= 97 && kc <= 122 && isShift))[0m[m
+[92m2022-10-18 13:42:44 I/stdout:                         $.fn.capsLockTip.capsLockActived = true;[0m[m
+[92m2022-10-18 13:42:44 I/stdout:                     _this.showTips($.fn.capsLockTip.capsLockActived);[0m[m
+[92m2022-10-18 13:42:44 I/stdout:                 });[0m[m
+[92m2022-10-18 13:42:44 I/stdout: [0m[m
+[92m2022-10-18 13:42:44 I/stdout:                 _this.target.bind("keydown", function (_event) {[0m[m
+[92m2022-10-18 13:42:44 I/stdout:                     var e = _event || window.event;[0m[m
+[92m2022-10-18 13:42:44 I/stdout:                     var kc = e.keyCode || e.which;[0m[m
+[92m2022-10-18 13:42:44 I/stdout:                     if (kc == 20 && null != $.fn.capsLockTip.capsLockActived){[0m[m
+[92m2022-10-18 13:42:44 I/stdout:                         $.fn.capsLockTip.capsLockActived = !$.fn.capsLockTip.capsLockActived;[0m[m
+[92m2022-10-18 13:42:44 I/stdout:                         _this.showTips($.fn.capsLockTip.capsLockActived);[0m[m
+[92m2022-10-18 13:42:44 I/stdout:                     }[0m[m
+[92m2022-10-18 13:42:44 I/stdout:                 });[0m[m
+[92m2022-10-18 13:42:44 I/stdout: [0m[m
+[92m2022-10-18 13:42:44 I/stdout:                 _this.target.bind("focus", function (_event) {[0m[m
+[92m2022-10-18 13:42:44 I/stdout:                     if (null != $.fn.capsLockTip.capsLockActived)[0m[m
+[92m2022-10-18 13:42:44 I/stdout:                         _this.showTips($.fn.capsLockTip.capsLockActived);[0m[m
+[92m2022-10-18 13:42:44 I/stdout:                 });[0m[m
+[92m2022-10-18 13:42:44 I/stdout: [0m[m
+[92m2022-10-18 13:42:44 I/stdout:                 _this.target.bind("blur", function (_event) {[0m[m
+[92m2022-10-18 13:42:44 I/stdout:                     _this.showTips(false);[0m[m
+[92m2022-10-18 13:42:44 I/stdout:                 });[0m[m
+[92m2022-10-18 13:42:44 I/stdout:             });[0m[m
+[92m2022-10-18 13:42:44 I/stdout: [0m[m
+[92m2022-10-18 13:42:44 I/stdout:             //创建显示大写锁定的div。[0m[m
+[92m2022-10-18 13:42:44 I/stdout:             this.createTooltip = function(){[0m[m
+[92m2022-10-18 13:42:44 I/stdout:                 if(null != $.fn.capsLockTip.divTip)[0m[m
+[92m2022-10-18 13:42:44 I/stdout:                     return $.fn.capsLockTip.divTip;[0m[m
+[92m2022-10-18 13:42:44 I/stdout: [0m[m
+[92m2022-10-18 13:42:44 I/stdout:                 $("body").append("<div id='divTip__985124855558842555' style='width:100px; height:25px; padding-top:3px; display:none; position:absolute; z-index:9999999999999; text-align:center; background-color:#FDF6AA; color:Red; font-size:12px; border:solid 1px #DBC492; border-bottom-color:#B49366; border-right-color:#B49366;'>大写锁定已打开</div>");[0m[m
+[92m2022-10-18 13:42:44 I/stdout:                 $.fn.capsLockTip.divTip = $("#divTip__985124855558842555");[0m[m
+[92m2022-10-18 13:42:44 I/stdout: [0m[m
+[92m2022-10-18 13:42:44 I/stdout:                 return $.fn.capsLockTip.divTip;[0m[m
+[92m2022-10-18 13:42:44 I/stdout:             };[0m[m
+[92m2022-10-18 13:42:44 I/stdout: [0m[m
+[92m2022-10-18 13:42:44 I/stdout:             //显示或隐藏大写锁定提示。[0m[m
+[92m2022-10-18 13:42:44 I/stdout:             this.showTips = function (display) {[0m[m
+[92m2022-10-18 13:42:44 I/stdout:                 var divTip = _this.createTooltip();[0m[m
+[92m2022-10-18 13:42:44 I/stdout:                 if (display) {[0m[m
+[92m2022-10-18 13:42:44 I/stdout:                     var offset = _this.target.offset();[0m[m
+[92m2022-10-18 13:42:44 I/stdout:                     divTip.css("left", offset.left + "px");[0m[m
+[92m2022-10-18 13:42:44 I/stdout:                     divTip.css("top", offset.top + _this.target[0].offsetHeight + 3 + "px");[0m[m
+[92m2022-10-18 13:42:44 I/stdout:                     divTip.show();[0m[m
+[92m2022-10-18 13:42:44 I/stdout:                 }[0m[m
+[92m2022-10-18 13:42:44 I/stdout:                 else {[0m[m
+[92m2022-10-18 13:42:44 I/stdout:                     divTip.hide();[0m[m
+[92m2022-10-18 13:42:44 I/stdout:                 }[0m[m
+[92m2022-10-18 13:42:44 I/stdout:             };[0m[m
+[92m2022-10-18 13:42:44 I/stdout: [0m[m
+[92m2022-10-18 13:42:44 I/stdout:             //jq控件公用静态对象。[0m[m
+[92m2022-10-18 13:42:44 I/stdout: [0m[m
+[92m2022-10-18 13:42:44 I/stdout:             //提示框。[0m[m
+[92m2022-10-18 13:42:44 I/stdout:             $.fn.capsLockTip.divTip = null;[0m[m
+[92m2022-10-18 13:42:44 I/stdout:             //大写锁定键状态[0m[m
+[92m2022-10-18 13:42:44 I/stdout:             $.fn.capsLockTip.capsLockActived = null;[0m[m
+[92m2022-10-18 13:42:44 I/stdout:         };[0m[m
+[92m2022-10-18 13:42:44 I/stdout:     })(jQuery);[0m[m
+[92m2022-10-18 13:42:44 I/stdout:     $("#userPassword").capsLockTip();[0m[m
+[92m2022-10-18 13:42:44 I/stdout: </script>[0m[m
+[92m2022-10-18 13:42:44 I/stdout: [0m[m

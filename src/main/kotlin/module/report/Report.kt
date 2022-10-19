@@ -6,6 +6,8 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.coroutineScope
 import kotlinx.coroutines.withContext
 import ray.mintcat.chencat.PluginMain
+import ray.mintcat.chencat.module.groupphoto.GroupPhotoEvent
+import ray.mintcat.chencat.module.task.TaskData
 import java.io.File
 import java.io.FileInputStream
 import java.io.IOException
@@ -114,6 +116,23 @@ object Report {
                     }
                 }
             }
+        }
+    }
+
+    fun test() {
+        PluginMain.eventChannel.subscribeAlways<GroupPhotoEvent> {
+            val name = this.appData.meta.albumData.albumName
+            if (ReportConfig.taskList.getOrDefault(name,"ERROR") != "群相册") {
+                return@subscribeAlways
+            }
+            val data = ReportConfig.taskData.getOrPut(name) { mutableMapOf() }
+            data[this.event.sender.id.toString()] = "完成"
+            PluginMain.group!!.sendMessage(
+                """
+                汇报提交: $name
+                提交者: ${this.event.sender.nameCard}
+            """.trimIndent()
+            )
         }
     }
 
