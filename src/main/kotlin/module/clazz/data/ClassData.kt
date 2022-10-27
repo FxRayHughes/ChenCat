@@ -12,7 +12,7 @@ data class ClassData(
 ) {
 
     fun getTimeData(): TimeData {
-        val time = XLS.timeData.firstOrNull { this.index == (it.index - 1) }
+        val time = XLS.timeData.firstOrNull { this.index == (it.index - 1) && this.location.contains(it.location) }
         return time ?: TimeData(-1, "错误", "错误", "获取错误联系卜帅辰")
     }
 

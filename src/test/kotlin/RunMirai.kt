@@ -13,6 +13,7 @@ import okhttp3.Request
 import ray.mintcat.chencat.module.http.HttpAPI
 import ray.mintcat.chencat.module.new.NewTitle
 import ray.mintcat.chencat.module.shst.FxShstAPI
+import ray.mintcat.chencat.module.weather.WeatherAPI
 import java.io.File
 import java.util.*
 
@@ -23,7 +24,7 @@ suspend fun main() {
     PluginMain.load()
     PluginMain.enable()
 
-    PluginMain.json.decodeFromString(AppData.serializer(),"")
+    println(WeatherAPI.getter("龙潭"))
 
 
 }

@@ -24,7 +24,11 @@ object DayCommand : BaseCommand("今日课表"), ShortCommand {
             return
         }
         sender.sendMessage("查询中 请等待...")
-        val now = Calendar.getInstance().get(Calendar.DAY_OF_WEEK) - 1
+        val now = if (Calendar.getInstance().get(Calendar.DAY_OF_WEEK) - 1 == 0){
+            7
+        }else{
+            Calendar.getInstance().get(Calendar.DAY_OF_WEEK) - 1
+        }
         val title = command[1].toIntOrNull() ?: 0
         if (title > 7){
             sender.sendMessage("暂时还没这么多课")
@@ -60,7 +64,11 @@ object DayCommand : BaseCommand("今日课表"), ShortCommand {
         get() = listOf("今天什么课")
 
     override suspend fun evalShort(short: String, sender: Sender, from: MessageChain) {
-        val now = Calendar.getInstance().get(Calendar.DAY_OF_WEEK) - 1
+        val now = if (Calendar.getInstance().get(Calendar.DAY_OF_WEEK) - 1 == 0){
+            7
+        }else{
+            Calendar.getInstance().get(Calendar.DAY_OF_WEEK) - 1
+        }
         val stringBuilder = StringBuilder()
         stringBuilder.append("今日课程: \n")
         XLS.data[now]?.list?.forEachIndexed { index, classData ->

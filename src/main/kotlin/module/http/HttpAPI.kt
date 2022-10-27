@@ -14,7 +14,7 @@ object HttpAPI {
                 .url(url)
                 .build()
             val response = client.newCall(request).execute()
-            String(response.body?.bytes()!!, Charset.forName("GB2312"))
+            response.body?.string()
         } catch (e: Exception) {
             "请求异常: ${e.message} "
         }

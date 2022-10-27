@@ -1,14 +1,16 @@
-[92m2022-10-19 14:21:48 I/main: Starting mirai-console...[0m[m
-[92m2022-10-19 14:21:48 I/main: Backend: version 2.12.3, built on 2022-09-11 21:02:46.[0m[m
-[92m2022-10-19 14:21:48 I/main: Frontend Terminal: version 2.12.3, provided by Mamoe Technologies[0m[m
-[92m2022-10-19 14:21:48 I/main: Welcome to visit https://mirai.mamoe.net/[0m[m
-[92m2022-10-19 14:21:49 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop[0m[m
-[92m2022-10-19 14:21:49 I/main: 0 plugin(s) enabled.[0m[m
-[92m2022-10-19 14:21:49 I/main: mirai-console started successfully.[0m[m
-[92m2022-10-19 14:21:49 I/stdout: <html>	<a href=/_ascnlink_k></a><head>	<base target="_self"/>		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">		<title>出错页面</title>		<style type="text/css">		<!--		body {			margin-top: 50px;		}		-->		</style> 		<script language='javascript'>			var flag='1';			if(flag=='1' || flag=='2' ){ 				window.location.href="/Logon.do?method=logout";			}		</script>	</head> 	<body>		<div align="center">			<table width="50%" border="0">				<tr>					<td>						<div align="center">							<img src="/framework/images/chucuole.gif" width="105" height="110">						</div>					</td>				</tr>				<tr>					<td height="50px">						<div align="center">							<font color="blue">用户没有登录，请重新登录！</font>						</div>					</td>				</tr>			</table>		</div>	</body> </html>[0m[m
-[92m2022-10-19 14:21:49 I/辰猫: Plugin loaded[0m[m
-[92m2022-10-19 14:21:49 I/辰猫: 注入命令: 今日课表[0m[m
-[92m2022-10-19 14:21:49 I/辰猫: 注入命令: 明日课表[0m[m
-[92m2022-10-19 14:21:49 I/辰猫: 注入命令: 应技回放[0m[m
-[92m2022-10-19 14:21:49 I/辰猫: 注入命令: 汇报[0m[m
-[92m2022-10-19 14:21:49 I/stdout: 14[0m[m
+[92m2022-10-26 09:28:12 I/main: Starting mirai-console...[0m[m
+[92m2022-10-26 09:28:12 I/main: Backend: version 2.12.3, built on 2022-09-11 21:02:46.[0m[m
+[92m2022-10-26 09:28:12 I/main: Frontend Terminal: version 2.12.3, provided by Mamoe Technologies[0m[m
+[92m2022-10-26 09:28:12 I/main: Welcome to visit https://mirai.mamoe.net/[0m[m
+[92m2022-10-26 09:28:12 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop[0m[m
+[92m2022-10-26 09:28:12 I/main: 0 plugin(s) enabled.[0m[m
+[92m2022-10-26 09:28:12 I/main: mirai-console started successfully.[0m[m
+[92m2022-10-26 09:28:12 I/辰猫: Plugin loaded[0m[m
+[92m2022-10-26 09:28:12 I/辰猫: 注入命令: 今日课表[0m[m
+[92m2022-10-26 09:28:12 I/辰猫: 注入命令: 明日课表[0m[m
+[92m2022-10-26 09:28:12 I/辰猫: 注入命令: 应技回放[0m[m
+[92m2022-10-26 09:28:12 I/辰猫: 注入命令: 汇报[0m[m
+[92m2022-10-26 09:28:12 I/辰猫: 注入命令: 查明日[0m[m
+[92m2022-10-26 09:28:12 I/辰猫: 注入命令: 今日天气[0m[m
+[92m2022-10-26 09:28:14 I/stdout: {"code":"200","location":[{"name":"龙潭","id":"101060208","lat":"43.90975","lon":"126.56143","adm2":"吉林","adm1":"吉林省","country":"中国","tz":"Asia/Shanghai","utcOffset":"+08:00","isDst":"0","type":"city","rank":"35","fxLink":"http://hfx.link/1tm11"},{"name":"龙潭区","id":"C4BED","lat":"24.86400","lon":"121.21600","adm2":"桃园市","adm1":"台湾省","country":"中国","tz":"Asia/Shanghai","utcOffset":"+08:00","isDst":"0","type":"city","rank":"50","fxLink":"http://hfx.link/3vk11"}],"refer":{"sources":["QWeather"],"license":["commercial license"]}}[0m[m
+[92m2022-10-26 09:28:15 I/stdout: Weather(code=200, fxLink=http://hfx.link/1tm11, now=Now(cloud=100, dew=5, feelsLike=4, humidity=57, icon=104, obsTime=2022-10-26T09:12+08:00, precip=0.0, pressure=986, temp=11, text=阴, vis=12, wind360=45, windDir=东北风, windScale=5, windSpeed=37), refer=Refer(license=[no commercial use], sources=[QWeather, NMC, ECMWF]), updateTime=2022-10-26T09:22+08:00)[0m[m

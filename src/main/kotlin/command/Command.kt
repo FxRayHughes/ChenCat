@@ -3,8 +3,10 @@ package ray.mintcat.chencat.command
 import net.mamoe.mirai.message.data.MessageChain
 import ray.mintcat.chencat.module.clazz.command.DayCommand
 import ray.mintcat.chencat.module.clazz.command.ToDayCommand
+import ray.mintcat.chencat.module.clazz.command.ToDayInfoCommand
 import ray.mintcat.chencat.module.clazz.command.YingJiCommand
 import ray.mintcat.chencat.module.report.ReportCommand
+import ray.mintcat.chencat.module.weather.WeatherCommand
 
 object Command {
 
@@ -16,6 +18,8 @@ object Command {
         YingJiCommand.load()
         YingJiCommand.loadS()
         ReportCommand.load()
+        ToDayInfoCommand.load()
+        WeatherCommand.load()
     }
 
     val commands = ArrayList<BaseCommand>()

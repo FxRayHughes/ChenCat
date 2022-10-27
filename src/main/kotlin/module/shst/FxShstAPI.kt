@@ -9,6 +9,9 @@ import java.lang.Integer.parseInt
 
 object FxShstAPI {
 
+    val account = "22010230122"
+    val password = "Yuchang123!"
+    val url = "http://jwky.jltc.edu.cn:89/app.do"
 
     fun getEncoded(): String {
         var head: Headers? = null
@@ -33,7 +36,7 @@ object FxShstAPI {
         }
         var scode = dataStr.split("#")[0]
         val sxh = dataStr.split("#")[1]
-        val code = PluginMain.shst.account + "%%%" + PluginMain.shst.password
+        val code = account + "%%%" + password
         var encoded = ""
         var i = 0
         while (i < code.length) {
@@ -55,7 +58,7 @@ object FxShstAPI {
                 .headers(head)
                 .url("http://jwky.jltc.edu.cn:89/Logon.do?method=logon")
                 .post(FormBody.Builder().apply {
-                    add("userAccount", PluginMain.shst.account)
+                    add("userAccount", account)
                     add("userPassword", "")
                     add("encoded", encoded)
                 }.build()).build()

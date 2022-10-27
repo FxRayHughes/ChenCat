@@ -30,7 +30,6 @@ object PluginMain : KotlinPlugin(
         version = "0.1.0"
     )
 ) {
-    val shst = MainSw()
 
     val bot by lazy {
         Bot.getInstance(137458045L)
